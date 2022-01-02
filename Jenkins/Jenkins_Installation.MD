@@ -24,6 +24,10 @@ Jenkins is a self-contained Java-based program, ready to run out-of-the-box, wit
    PATH=$PATH:$JAVA_HOME
     # To set it permanently update your .bash_profile
    vi ~/.bash_profile
+   source ~/.bash_profile
+   echo $JAVA_HOME 
+   # tell the java path for jenkins
+
    ```
    _The output should be something like this,_
     ```sh
